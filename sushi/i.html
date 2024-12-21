@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/CSS/header.css">
+    <link rel="stylesheet" href="/CSS/main.css">
+    <link rel="stylesheet" href="/CSS/footer.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+                <div class="header-top">
+                    <div class="header-menu">
+                        <a href="#!">О нас</a>
+                        <a href="#!">Кейтинг</a>
+                        <a href="#!">Доставка и оплата</a>
+                        <a href="#!">Обратная связь</a>
+                    </div>
+        
+                    <div class="header-top__contacts">
+                        <a href="#!">8 (423) 222-88-88</a>
+                        <a1 href="#!">Забронировать стол</a1>
+                    </div>
+                </div>
+        
+                <div class="header-main">   
+                    <a href="#!">
+                        <img src="/images/header/header-logo.svg">
+                    </a> 
+                    <div class="header-main__catalog_button">
+                        <nav class="list list--no-margin list--with-dropdowns list--align-center">
+                            <div class="list__item list__item--offsets-none">
+                                <div class="header-main__catalog list__link--with-submenu">
+                                    <a class="header-main__catalog list__link--with-submenu" href="#!">Меню<div class="header-main__catalog-icon"></div>
+                                        <div class="header-main__catalog-icon">
+                                            <img src="/images/header/menu.svg">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+        
+                    <div class="header-main__search">
+                        <div class="header-search header__search--js">
+                            <form class="header-search__form">
+                                    <img src="/images/header/poisk.svg">
+                                </button>
+                                <input class="input input--search" placeholder="Поиск">
+                            </form> 
+                        </div>
+                    </div>
+                
+                <div class="header-main__select">
+                    <div id="rootDeliveryType">
+                        <div class="delivery-switch delivery-switch_desktop mainWrap__Eh7nJ">
+                            <div class="switchDeliveryContainer__dL0Pv">
+                                <div class="deliveryType__dostav deliveryTypeActive__o2BR6">
+                                    <svg width="25" height="17" viewBox="0 0 25 17" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_448_18)"><path fill-rule="evenodd" clip-rule="evenodd" d="M8.68138 6.50911C9.41784 6.509 10.1543 6.50889 10.8907 6.50889L10.8917 6.50991C11.6309 6.50991 12.3699 6.51003 13.1091 6.51014C14.5872 6.51037 16.0655 6.5106 17.5437 6.50991C18.0629 6.50991 18.4124 6.16718 18.4165 5.65924C18.4185 5.39039 18.3043 5.16977 18.1366 4.96659C17.939 4.72677 17.7411 4.48711 17.5433 4.24743C16.732 3.26472 15.9206 2.28193 15.1223 1.28785C14.4183 0.412549 13.5232 0.00106355 12.4201 0.00311585C9.85836 0.00824658 7.29655 0.0123513 4.73477 3.75324e-05C3.89633 -0.00406705 3.26598 0.328404 2.80939 1.03952C2.42757 1.6349 2.04223 2.2279 1.65689 2.82092C1.24192 3.45952 0.82694 4.09815 0.416302 4.73981C0.161739 5.13796 0.00314274 5.57715 0.00314274 6.06251C0.00314274 6.19899 0.00235706 6.33548 0.00157137 6.47195C0 6.7449 -0.00157137 7.01785 0.00314274 7.29082C0.0112241 7.78747 0.339528 8.13636 0.789053 8.14149C1.25171 8.14662 1.58809 7.7967 1.59921 7.28568C1.60628 6.92756 1.60325 6.56841 1.59921 6.21028C1.59618 6.00813 1.6386 5.81726 1.74669 5.65C2.18575 4.97021 2.62628 4.29132 3.06685 3.61236C3.44428 3.03069 3.82176 2.44898 4.19837 1.8666C4.30545 1.70037 4.44586 1.63469 4.64184 1.63469C5.86009 1.63982 7.07734 1.64085 8.29561 1.63264C8.48451 1.63161 8.53704 1.68394 8.53502 1.87583C8.52832 2.52311 8.5293 3.17095 8.53028 3.81852C8.53063 4.04973 8.53097 4.28091 8.53097 4.512C8.53097 4.76239 8.41043 4.88758 8.16934 4.88758C7.73837 4.88758 7.30729 4.88735 6.87617 4.88712C6.01383 4.88667 5.15133 4.88621 4.28928 4.88758C3.8741 4.88861 3.57813 5.08357 3.4569 5.42528C3.26194 5.9753 3.65389 6.50889 4.26403 6.50889C5.73615 6.50957 7.20871 6.50934 8.68138 6.50911ZM15.905 4.81096C15.9113 4.82196 15.9183 4.83408 15.9264 4.84756L15.9254 4.84653C15.8416 4.89199 15.7696 4.88885 15.702 4.88591C15.6857 4.8852 15.6696 4.8845 15.6537 4.8845C15.157 4.88479 14.6603 4.88458 14.1635 4.88437C12.9217 4.88384 11.6799 4.88333 10.4382 4.89065C10.1978 4.89271 10.1241 4.82909 10.128 4.57973C10.1422 3.6757 10.1372 2.77063 10.1301 1.8666C10.1291 1.69626 10.1674 1.62956 10.3513 1.63161C10.7438 1.637 11.1362 1.63645 11.5286 1.63589C11.8837 1.63539 12.2388 1.6349 12.5939 1.63879C13.0424 1.64393 13.4414 1.80503 13.7334 2.15392C14.2563 2.77852 14.7712 3.40965 15.2862 4.04097C15.4786 4.27673 15.6709 4.51253 15.8638 4.74802C15.8787 4.7653 15.8901 4.78509 15.905 4.81096ZM24.4841 11.224C24.4835 11.072 24.483 10.92 24.483 10.7681L24.482 10.7701H24.477C24.477 10.6083 24.4782 10.4467 24.4794 10.285C24.482 9.93463 24.4847 9.58426 24.4749 9.23397C24.4376 7.92355 23.5799 6.71679 22.3496 6.31455C21.6798 6.09495 20.9868 5.9441 20.2969 5.79532C19.808 5.68962 19.3736 6.08571 19.3726 6.59161C19.3716 7.00412 19.6201 7.29759 20.0656 7.40842C20.241 7.45201 20.417 7.49436 20.5928 7.53672C20.9719 7.62798 21.3509 7.71926 21.7263 7.82298C22.3798 8.00461 22.8506 8.57514 22.8688 9.25446C22.8851 9.86578 22.8837 10.478 22.8823 11.0902C22.8816 11.4254 22.8808 11.7607 22.8829 12.0958C22.884 12.2437 22.8243 12.2888 22.687 12.2836C22.4688 12.2765 22.2496 12.2692 22.0323 12.2857C21.8404 12.3001 21.7616 12.221 21.6848 12.0456C21.1475 10.8193 20.2151 10.1339 18.8908 10.0785C17.5149 10.021 16.3835 10.7936 15.8511 12.0948C15.7997 12.22 15.7441 12.2847 15.5986 12.2847C13.65 12.2805 11.7003 12.2805 9.75172 12.2847C9.61336 12.2847 9.54164 12.2385 9.49319 12.1041C9.36483 11.748 9.1719 11.4278 8.92241 11.1456C7.38797 9.41146 4.67466 9.82396 3.69884 11.9429C3.61803 12.1174 3.54226 12.1626 3.35942 12.1112C2.84928 11.9686 2.33511 11.8363 1.81891 11.7203C1.63709 11.6793 1.59566 11.5931 1.59971 11.4217C1.6088 11.0635 1.61284 10.7034 1.59466 10.3463C1.57142 9.90607 1.22191 9.57466 0.804706 9.57151C0.377405 9.56743 0.0198059 9.90913 0.00869405 10.3607C-0.00342797 10.8389 -0.00443816 11.317 0.0157652 11.7942C0.0450601 12.4838 0.478422 13.0317 1.12998 13.2103C1.80275 13.394 2.47855 13.5663 3.15638 13.7264C3.36953 13.7767 3.47054 13.868 3.52812 14.0938C3.88168 15.4801 5.13833 16.4549 6.55256 16.4642C7.9375 16.4724 9.19621 15.5212 9.57603 14.1585C9.62957 13.9645 9.70836 13.9101 9.90129 13.9101C11.7408 13.9173 13.5813 13.9173 15.4209 13.9101C15.6198 13.9101 15.7077 13.9562 15.7663 14.1666C16.1765 15.6299 17.5877 16.5924 19.0716 16.4427C20.3808 16.3102 21.4364 15.4237 21.801 14.1348C21.8505 13.9614 21.9222 13.9008 22.096 13.9111C22.2757 13.9221 22.4559 13.9193 22.6363 13.9164C22.6912 13.9155 22.7461 13.9147 22.8011 13.9142C23.7739 13.906 24.4699 13.2103 24.482 12.2272C24.4862 11.8928 24.4851 11.5584 24.4841 11.224ZM17.23 13.2615C17.2482 12.3729 17.9301 11.6885 18.7908 11.6936C19.6403 11.6987 20.3312 12.4027 20.3282 13.2585C20.3241 14.1235 19.613 14.8429 18.7685 14.8326C17.928 14.8223 17.2139 14.0927 17.23 13.2615ZM6.57074 14.8326C5.72523 14.8398 5.01609 14.1215 5.01408 13.2575V13.2564C5.01205 12.3996 5.69897 11.7008 6.54953 11.6926C7.41928 11.6844 8.11428 12.3965 8.10519 13.2872C8.0971 14.1266 7.40312 14.8254 6.57074 14.8326Z" fill="#F04634"></path></g><defs><clipPath id="clip0_448_18"><rect width="25" height="17" fill="white"></rect></clipPath></defs></svg>
+                                    <p>Доставка</p>
+                                </div>
+                                <div class="deliveryType__dostav">
+                                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8.80207 3.1102C8.9149 2.79079 9.04464 2.55162 9.17963 2.37311C9.53018 1.9096 10.0099 1.73782 10.7429 1.73782C11.4974 1.73782 11.9682 1.89861 12.3101 2.34393C12.4486 2.52442 12.5824 2.77178 12.6979 3.1102H8.80207ZM6.72632 4.84802C6.70856 5.08999 6.6963 5.342 6.68949 5.60432C6.60506 5.75347 6.55687 5.92583 6.55687 6.10945C6.55687 6.67659 7.01663 7.13634 7.58377 7.13634C8.15091 7.13634 8.61066 6.67659 8.61066 6.10945C8.61066 5.89366 8.5441 5.69342 8.43039 5.52813C8.43855 5.28593 8.45183 5.05957 8.46962 4.84802H13.0182C13.0353 5.05981 13.0481 5.28654 13.0559 5.52926C12.9427 5.69433 12.8764 5.89415 12.8764 6.10945C12.8764 6.67659 13.3362 7.13634 13.9033 7.13634C14.4704 7.13634 14.9302 6.67659 14.9302 6.10945C14.9302 5.92511 14.8816 5.75211 14.7966 5.60256C14.79 5.34075 14.7782 5.08933 14.7612 4.84802H17.7779L17.0879 16.968H14.4532C13.9734 16.968 13.5843 17.3571 13.5843 17.8369C13.5843 18.3168 13.9734 18.7059 14.4532 18.7059H16.9889L16.9217 19.8855H1.84239L3.55473 4.84802H6.72632ZM6.99 3.1102C7.17322 2.38279 7.43985 1.79257 7.79356 1.32487C8.59791 0.261284 9.71364 0 10.7429 0C11.7508 0 12.8755 0.22669 13.6885 1.28567C14.0511 1.758 14.3218 2.36031 14.5056 3.1102H18.6977C19.1334 3.1102 19.5017 3.43282 19.5591 3.86468L21.7876 20.64C21.8206 20.8882 21.7449 21.1386 21.5799 21.3269C21.4149 21.5153 21.1767 21.6233 20.9263 21.6233H17.7426H0.868917C0.621348 21.6233 0.385534 21.5177 0.220676 21.333C0.055819 21.1483 -0.0224264 20.9021 0.00558363 20.6561L1.91581 3.8808C1.9658 3.44179 2.3373 3.1102 2.77914 3.1102H6.99ZM19.9343 19.8855L19.044 13.1835L18.7762 17.8863L18.6624 19.8855H19.9343ZM12.174 16.968C11.6941 16.968 11.3051 17.3571 11.3051 17.8369C11.3051 18.3168 11.6941 18.7059 12.174 18.7059H12.3194C12.7993 18.7059 13.1883 18.3168 13.1883 17.8369C13.1883 17.3571 12.7993 16.968 12.3194 16.968H12.174Z" fill="#F04634"></path></svg>
+                                    <p>Самовывоз</p>
+                                </div>
+                            </div>
+                            <div class="deliveryData__adres">
+                                <p style="color: rgb(188, 188, 188);">адрес не указан</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                     <div class="header-main__personal">
+                        <div class="header-main__profile">
+                            <a href="#!">Вход</a>
+                        </div>
+                        
+                        <div class="header-main__basket">
+                            <div class="basket basket--mini">
+                                <a class="basket__svg" >
+                                    <img src="/images/header/basket.svg" >
+                                </a>
+                                <span class="basket__value">0</span>
+                            </div>
+                        </div>
+                    </div>
+    </header>
+
+    <main class="main">
+        <div class="container banner">
+            <a href="#!">
+                <img src="/images/main pre main/meropri_.jpg" alt="Banner Image">
+                <h4>Купить билет</h4>
+            </a>
+            
+            <button class="btn left">
+                <span><</span>
+            </button>
+            <button class="btn right">
+                <span>></span>
+            </button>
+        </div>
+            <div class="container menu">
+                <h1>ресторан японской кухни TOKYO</h1>
+                
+                <div class="eda">
+                    <div class="box">
+                        <div class="block">
+                            
+                            <img src="images/main main/meropri.jpg">
+                            <span><h6 href="#!">Мероприятия</h6></span>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="block">
+                            
+                            <img src="images/main main/novogod.jpg">
+                            <span><h6 href="#!">Новогодний стол</h6></span>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="block">
+                            
+                            <img src="images/main main/tokyotogo.jpg">
+                            <span><h6 href="#!">Tokyo to go Русская 1B</h6></span>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="block">
+                            
+                            <img src="images/main main/Akvamenyu_2.jpg">
+                            <span><h6 href="#!">Акваменю</h6></span>
+                        </div>
+                    </div>
+                 
+                    <div class="box">
+                        <div class="block">
+                             
+                            <img src="images/main main/biznes.jpg">
+                            <span><h6 href="#!">Бизнес-ланч</h6></span>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="block">
+                            
+                            <img src="images/main main/vok.jpg">
+                            <span><h6 href="#!">Вок</h6></span>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="block">
+                            
+                            <img src="images/main main/gorach.jpg">
+                            <span><h6 href="#!">Горячие блюда</h6></span>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="block">
+                            
+                            <img src="images/main main/salati.jpg">
+                            <span><h6 href="#!">Салаты</h6></span>
+                        </div>
+                    </div>
+                    
+                    <div class="box">
+                        <div class="block">
+                            
+                            <img src="images/main main/rolly_5.jpg">
+                            <span><h6 href="#!">Роллы</h6></span>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="block">
+                            
+                            <img src="images/main main/polovinki_rollov_2.jpg">
+                            <span><h6 href="#!">Половинки роллов</h6></span>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="block">
+                            
+                            <img src="images/main main/sushi.jpg">
+                            <span><h6 href="#!">Суши</h6></span>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="block">
+                            
+                            <img src="images/main main/sashimi.jpg">
+                            <span><h6 href="#!">Сашими</h6></span>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="block">
+                            
+                            <img src="images/main main/nabory_2.jpg">
+                            <span><h6 href="#!">Наборы ролов и суши-сеты</h6></span>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="block">
+                            
+                            <img src="images/main main/nabory_dlya_osobogo_sluchaya_3.jpg">
+                            <span><h6 href="#!">Наборы для особого случая</h6></span>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="block">
+                            
+                            <img src="images/main main/supi.jpg">
+                            <span><h6 href="#!">Супы</h6></span>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="block">
+                            
+                            <img src="images/main main/gorach-zakus.jpg">
+                            <span><h6 href="#!">Горячие закуски</h6></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="container company">
+                <h1>О КОМПАНИИ</h1>
+                <div class="other">
+                <div class="boc">
+                    <div class="block2">
+                        <span><h5 href="#!">172 оригинальных блюда</h5></span>
+                        <h2>Роллы, суши, сашими, супы, салаты и горячие блюда. Все уникальные и вкусные.</h2>
+                    </div>
+                </div>
+
+                <div class="boc">
+                    <div class="block2">
+                        <span><h5 href="#!">Полуфабрикаты</h5></span>
+                        <h2>В разделе Готовим дома вы найдете все для приготовления ресторанных блюд у себя дома.</h2>
+                    </div>
+                </div>
+
+                <div class="boc">
+                    <div class="block2">
+                        <span><h5 href="#!">9 ресторанов по всему Приморью</h5></span>
+                        <h2>Мы есть в 4 крупных городах Приморского края - Владивосток, Находка, Уссурийск, Артем</h2>
+                    </div>
+                </div>
+            </div>
+        </div>    
+        
+        <div class="container news">
+            <h1>НОВОСТИ</h1>
+        </div>
+
+        <div class="new">
+            
+            <div class="box2">
+                <div class="block3">
+                    <img src="images/main post main/dets-ilul.jpg">
+                    <span><h1 href="#!">Детские кулинарные мастер-классы в июне</h1></span>
+                    <p>13.06.2024</p>
+                </div>
+            </div>
+            
+            <div class="box2">
+                <div class="block3">
+                    <img src="images/main post main/glavnoeobnov.png">
+                    <span><h1 href="#!">Главное обновление этой зимы - ресторан TOKYO в Уссурийске</h1></span>
+                    <p>20.12.2024</p>
+                </div>
+            </div>
+            <div class="box2">
+                <div class="block3">
+                    <img src="images/main post main/poprob.jpg">
+                    <span><h1 href="#!">Попробуй новое меню в TOKYO</h1></span>
+                    <p>10.12.2024</p>
+                </div>
+            </div>
+            <div class="box2">
+                <div class="block3">
+                    <img src="images/main post main/prednovogod.jpg">
+                    <span><h1 href="#!">Предновогодний вечер с Tokyo More</h1></span>
+                    <p>04.12.2024</p>
+                </div>
+            </div>  
+            <div class="box2">
+                <div class="block3">
+                    <img src="images/main post main/dets-november.jpg">
+                    <span><h1 href="#!">Детские кулинарные мастер-классы в ноябре</h1></span>
+                    <p>05.11.2024</p>
+                </div>
+            </div> 
+        </div>
+
+        <div class="container news">
+            <h1>АКЦИЯ</h1>
+        </div>
+
+        <div class="discount">
+            <div class="box2">
+                <div class="block3">
+                    <img src="images/main final/Novost_predzy_Kalifa.png">
+                    <span><h1 href="#!">Новогодние предзаказы в TOKYO</h1></span>
+                    <p>03.12.2024</p>
+                </div>
+            </div>
+            <div class="box2">
+                <div class="block3">
+                    <img src="images/main final/NOVOST-_43_.jpg">
+                    <span><h1 href="#!">Доставка бесплатно!</h1></span>
+                    <p>15.08.2024</p>
+                </div>
+            </div>
+            <div class="box2">
+                <div class="block3">
+                    <img src="images/main final/NOVOST-ANONS.jpg">
+                    <span><h1 href="#!">Скидка на самовывоз</h1></span>
+                    <p>25.10.2022</p>
+                </div>
+            </div>
+            <div class="box2">
+                <div class="block3">
+                    <img src="images/main final/10percent.jpg">
+                    <span><h1 href="#!">Скидка 10% в день рождения</h1></span>
+                    <p>26.12.2020</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer" >
+                <div class="footer-main">
+                    <div class="footer-main__logocity">
+                        <a href="#!" class="footer-main__logo">
+                            <img src="/images/footer/header-logo.svg"">
+                        </a>
+                    </div>
+                    
+                    <div class="footer-main__menu">
+                        <div class="footer-menu">
+                            <a class="footer-menu__item" href="#!">Меню</a>
+                    
+                            <a class="footer-menu__item" href="#!">Подарочные сертификаты</a>
+                    
+                            <a class="footer-menu__item" href="#!">Кейтеринг</a>
+                    
+                            <a class="footer-menu__item" href="#!">Бонусный клуб</a>
+                    
+                            <a class="footer-menu__item" href="#!">Рестораны</a>
+                    
+                            <a class="footer-menu__item" href="#!">О нас</a>
+                    
+                            <a class="footer-menu__item" href="#!">Вакансии</a>
+                    
+                            <a class="footer-menu__item" href="#!">Доставка и оплата</a>
+                    
+                            <a class="footer-menu__item" href="#!">Новости</a>
+                    
+                            <a class="footer-menu__item" href="#!">Блог</a>
+                    
+                            <a class="footer-menu__item" href="#!">Франшиза</a>
+                    
+                            <a class="footer-menu__item" href="#!">Контакты</a>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-main__contacts">
+                        <a href="#!" class="footer-main__link button modal-opener-js">
+                            Забронировать стол
+                        </a>
+                        <a href="#!" class="footer-main__phone">
+                            8 (423) 222-88-88
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="footer-links">
+                    <div class="footer-links__container">
+                        <div class="footer-links__socials">
+                            <a href="#!" class="footer-links__socials-item">
+                                <img src="images/footer/tg.svg">
+                                Телеграм
+                            </a>
+                            <a href="#!" class="footer-links__socials-item">
+                                <img src="/images/footer/vk.svg">
+                                ВКонтакте
+                            </a>
+                        </div>
+        
+                        <div class="footer-links__apps">
+                            <div class="footer-links__apps-text">
+                                Мобильное приложение TOKYO
+                            </div>
+        
+                            <div class="footer-links__apps-container">
+                                <a href="#!" class="footer-links__apps-item">
+                                    <img src="/images/footer/appstore.svg">
+                                    App Store
+                                </a>
+                                <a href="#!" class="footer-links__apps-item">
+                                    <img src="/images/footer/gplay.svg">
+                                    Google Play
+                                </a>
+                                <a href="#!" class="footer-links__apps-item">
+                                    <img src="/images/footer/appg.svg">
+                                    AppGallery
+                                </a>
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+                
+                <div class="footer-data">
+                    <div class="footer-data__legal">
+                        <p>ИП&nbsp;Ницора&nbsp;Алёна&nbsp;Владимировна</p>
+                        <p></p>
+                        <p>ИНН:&nbsp;253600720275</p>
+                        <p></p>
+                        <p>ОГРНИП:&nbsp;317253600054682</p>
+                        <p></p>
+                    </div>
+        
+                    <div class="footer-data__public-data">
+                        <div class="footer-data__links">
+                            <a href="#!" class="footer-data__link">
+                                Политика конфиденциальности
+                            </a>
+                            <a href="#!" class="footer-data__link">
+                                Согласие на обработку ПД
+                            </a>
+                        </div>
+                        <div class="footer-data__copyright">
+                            © 2024 Рестораны&nbsp;японской кухни Tokyo
+                        </div>
+                    </div>
+                </div>
+    </footer>
+    </div>
+</body>
+</html>

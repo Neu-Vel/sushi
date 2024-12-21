@@ -1,0 +1,261 @@
+.container.banner {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.container.banner img {
+    margin: 100px 0 0;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 24px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container.banner h4 {
+    position: absolute;
+    bottom: 70px;
+    left: 120px;
+    padding: 10px 20px;
+    border: 1px solid #f04634;
+    border-radius: 24px;
+    font-size: 1.1em;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.container.banner h4:hover {
+    background-color: #f04634;
+}
+
+.btn span {
+    font-size: 1.5em;
+}
+
+.btn {
+    position: absolute;
+    background-color: rgba(255, 223, 223, 0.8);
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    color: #f04634;
+    width: 50px;
+    height: 50px;
+}
+
+.btn:hover {
+    background-color: #f04634;
+    transition: background-color 0.5s;
+    color: #fff;
+}
+
+.btn.left {
+    left: -60px;
+}
+
+.btn.right {
+    right: -60px;
+}
+
+
+
+.container.menu {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.container.menu h1 {
+    text-align: left;
+    font-size: 2.5em;
+    color: #f04634;
+    margin-bottom: 20px;
+}
+
+.eda {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box {
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 24px;
+    overflow: hidden;
+    transition: transform 0.3s;
+    width: calc(25% - 20px);
+    height: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+.block img {
+    width: 282px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.block h6 {
+    margin: 10px 0;
+    font-size: 1.5em;
+    color: #2e2e2e;
+}
+
+
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.company h1 {
+    text-align: left;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #2e2e2e;
+}
+
+.other {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.boc {
+    background-color: #fff;
+    border-radius: 24px;
+    padding: 20px;
+    margin: 10px;
+    height: 230px;
+    flex: 1 1 30%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.boc:hover {
+    transform: scale(1.05);
+}
+
+.block2 {
+    text-align: left;
+}
+
+.block2 h5 {
+    font-size: 1.2em;
+    color: #f04634;
+    margin: 0;
+}
+
+.block2 h2 {
+    font-size: 1.1em;
+    color: #2e2e2e;
+    margin-top: 10px;
+}
+
+.btn {
+    position: absolute;
+    background-color: rgba(255, 223, 223, 0.8);
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    color: #f04634;
+    width: 50px;
+    height: 50px;
+}
+
+.btn:hover {
+    background-color: #f04634;
+    transition: background-color 0.5s;
+    color: #fff;
+}
+
+.btn.left {
+    left: -60px;
+}
+
+.btn.right {
+    right: -60px;
+}
+
+
+
+.container.news h1 {
+    text-align: left;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: -10px;
+}
+
+.new {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.box2 {
+    width: 374px;
+    height: 250px;
+    margin: 10px;
+    position: relative;
+}
+
+.block3 {
+    background-color: #fff;
+    border-radius: 24px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    height: 100%;
+}
+
+.block3 img {
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    width: 374px;
+    height: auto;
+}
+
+.block3 span h2 {
+    padding: 10px;
+    text-align: center;
+    color: #f04634;
+    font-size: 18px;
+}
+
+.box2:hover .block3 {
+    transform: scale(1.05);
+}
+
+.block3 h1 {
+    margin: 10px 20px 2px;
+    color: #2e2e2e;
+    font-size: 0.9em;
+}
+
+.block3 p {
+    margin: 0 20px ;
+    color: #878787;
+    font-size: 0.9em;
+}
+
+.discount {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
